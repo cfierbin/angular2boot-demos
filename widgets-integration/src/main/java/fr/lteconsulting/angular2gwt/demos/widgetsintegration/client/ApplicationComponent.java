@@ -9,6 +9,8 @@ import jsinterop.annotations.JsType;
  * <p>
  * It simply binds to the <my-app> tag.
  */
+
+/*
 @Component(
 		selector = "my-app",
 		template = "<h1>Angular 2 and GWT Widgets integration</h1>"
@@ -22,6 +24,11 @@ import jsinterop.annotations.JsType;
 				+ "name of the product in the list for instance).<br/><br/>"
 
 				+ "<products></products>" )
+*/
+
+@Component(
+        selector = "my-app",
+        templateUrl = "application.html" )
 @JsType
 public class ApplicationComponent
 {
